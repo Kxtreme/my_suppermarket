@@ -1,19 +1,19 @@
-package me.kxtre.mysuppermarket.controllers.model
+package me.kxtre.mysuppermarket.adapter
 
 import android.animation.LayoutTransition
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import me.kxtre.mysuppermarket.R
+import me.kxtre.mysuppermarket.model.Grocery
 import me.kxtre.mysuppermarket.databinding.ListItemGroceryBinding
 
 class GroceryAdapter(
-private val context: Context,
-private val objects: List<Grocery>
+    private val context: Context,
+    private val objects: List<Grocery>
 ) : RecyclerView.Adapter<GroceryAdapter.ViewHolder>() {
     class ViewHolder constructor(val binding: ListItemGroceryBinding) :
         RecyclerView.ViewHolder(binding.root) {

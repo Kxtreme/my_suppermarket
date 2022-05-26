@@ -1,4 +1,4 @@
-package me.kxtre.mysuppermarket.controllers.model
+package me.kxtre.mysuppermarket.model
 
 import com.github.javafaker.Faker
 
@@ -12,7 +12,7 @@ class Grocery(val name: String, val department: String, val price: String, val i
                 commerce.productName(),
                 commerce.department(),
                 commerce.price(),
-                "https://picsum.photos/id/${faker.number().numberBetween(0,100)}/640/480"
+                "https://picsum.photos/id/${faker.number().numberBetween(0, 100)}/640/480"
             )
         }
     }

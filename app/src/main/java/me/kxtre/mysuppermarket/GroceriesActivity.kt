@@ -2,8 +2,8 @@ package me.kxtre.mysuppermarket
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import me.kxtre.mysuppermarket.controllers.model.Grocery
-import me.kxtre.mysuppermarket.controllers.model.GroceryAdapter
+import me.kxtre.mysuppermarket.model.Grocery
+import me.kxtre.mysuppermarket.adapter.GroceryAdapter
 import me.kxtre.mysuppermarket.databinding.ActivityGroceriesBinding
 
 class GroceriesActivity : AppCompatActivity() {
